@@ -1,2 +1,72 @@
-# RefereeX-Prototype_Code
-RefereeX is an AI-powered football refereeing prototype that combines Computer Vision, YOLO, Player Tracking, and ESP32-CAM integration to automate football decision-making. The system detects goals, offsides, and ball-out events in real time through a web-based dashboard, providing accurate match analysis and event logging.
+Project Title
+
+RefereeX Prototype
+AI-Powered Football Refereeing Assistant using Computer Vision and ESP32-CAM.
+
+Overview
+
+RefereeX is a prototype system designed to assist football refereeing decisions through real-time computer vision analysis.
+
+The prototype demonstrates:
+
+Goal Detection
+Offside Detection
+Ball Out Detection
+Live Monitoring
+Event Logging
+ESP32-CAM Integration
+Features
+Goal Detection
+
+Detects when the ball completely crosses the goal line.
+
+Offside Detection
+
+Analyzes player positions and identifies potential offside situations.
+
+Ball Out Detection
+
+Detects when the ball leaves the field boundaries.
+
+Live Monitoring
+
+Provides real-time monitoring through the web dashboard.
+
+Event Logging
+
+Records detected events and generated decisions.
+
+Hardware
+ESP32-CAM
+Mini Football Field Prototype
+Mini Players
+Football Ball
+Software Stack
+Python
+OpenCV
+YOLO
+ByteTrack
+Flask
+ESP32-CAM
+System Workflow
+ESP32-CAM
+      ↓
+ Video Stream
+      ↓
+ Object Detection
+      ↓
+ Player Tracking
+      ↓
+ Event Detection
+      ↓
+ Decision Engine
+      ↓
+ Dashboard Display
+Demo
+
+ضع صور:
+
+Goal Detection
+Offside Detection
+Ball Out Detection
+Dashboard
