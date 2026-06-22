@@ -62,11 +62,3 @@ ESP32-CAM
  Decision Engine
       ↓
  Dashboard Display
-Demo
-
-ضع صور:
-
-Goal Detection
-Offside Detection
-Ball Out Detection
-Dashboard
